@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+p.lop {
+    font-family: 'segoe ui';
+    font-size: 24px;
+    color: rgb(230, 119, 119);
+}
+h4.ten {font-family: 'Segoe UI';font-size: 24px;color: white;margin-top: 48px;margin-bottom: 12px;
+}
+.noidung {
+    margin-right: 45px;
+}
+
+.khoito {
+    margin-left: 90;
+    margin-top: -366px;
+}
+p.lop {
+    margin-bottom: 12px;
+    font-size: 12px;
+    color: white;
+    margin-top: 12px;
+    font-style: italic;
+}
+.layer2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transform: scale(0);
+    transition: 0.4s;
+}
+
+.layer1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: inset 0 0 0 0 #f375756e;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.khoi1 {
+    background-image: url("https://scontent-hkg3-2.xx.fbcdn.net/v/t1.0-9/p720x720/49153930_382297872338073_8195098699450286080_o.jpg?_nc_cat=107&_nc_sid=110474&_nc_ohc=OpEStTJkoOYAX8EO9Er&_nc_ht=scontent-hkg3-2.xx&_nc_tp=6&oh=d0c07b721c6141f406f482676f15aa9c&oe=5E961127");
+    background-size: 221px;
+}
+.motkhoi:hover .layer1 {
+    box-shadow: inset 0 0 0 110px #f375756e;
+}
+
+.motkhoi:hover .layer2 {
+    transform: scale(1);
+}
+.motkhoi {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 20px #ffffff94;
+    position: relative;
+}
+
+header.h-100.d-flex.align-items-center {
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-callout.jpg);
+}
+
+.khoi3 {
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-1.jpg);
+}
+
+img.poster {
+    width: 396px;
+    margin-left: 200;
+}
+img.poster2 {
+    width: 396px;
+    margin-left: 22px;
+    height: 244px;
+    width: 338px;
+}
+img.poster3 {
+    width: 396px;
+    margin-left: 227px;
+    margin-top: 21px;
+}
+img.poster4 {
+    width: 396px;
+    margin-left: 622px;
+    margin-top: -348px;
+    height: 347px;
+}
+img.nen {
+    width: 395px;
+    margin-left: 401px;
+    margin-top: -320px;
+}
+.khoi4.h-100.d-flex.align-items-center {
+    margin-left: -12px;
+    margin-top: -11px;
+    }
+
+.khoi4.h-100.d-flex.align-items-center {
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg);
+}
+a.nude {
+    font-size: 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    max-height: 104px;
+    border-radius: 10rem;
+    background-color: #343a40;
+}
+
+.mauvang {
+    background: yellow!important;
+}
+
+.mauxang {
+    background: green!important;
+}
+
+.chonmau {
+    position: fixed;
+    right: 24px;
+    top: 16px;
+    z-index: 9999;
+}
+
+.chonmau div {
+    width: 60px;
+    height: 60px;
+    background: green;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+
+.maublue {
+    background: rgb(119, 151, 238)!important;
+}
+
+nav p {
+    cursor: pointer;
+}
+
+nav p:hover {
+    color: white;
+}
+
+nav {
+    background-color: var(--blue);
+    color: #ffffff63;
+    font-weight: 700;
+    letter-spacing: 0px;
+    width: 15%;
+}
+
+img.avt {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 32px;
+    border: 8px solid #ffffff47;
+    margin-top: -294px;
+}
+
+li {
+    color: var(--xam);
+    list-style: none;
+}
+
+.khoi4 .tools i {
+    font-size: 48px;
+    margin-right: 12px;
+    color: var(--xam);
+}
+
+.khoi4 .tools i:hover {
+    color: var(--blue);
+}
+
+p.thoigian {
+    color: #3f630f;
+}
+
+p.mota {
+    color: #c3bdbd;
+    font-size: 20px;
+}
+
+p.mota.mc-5 {
+    color: #e0ffa4;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+h3.tieude3 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #887474;
+}
+
+h3.tieude3.t3 {
+    color: #f8f9fa;
+}
+
+h2.tieude2 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+h2.tieude2.mb-5 {
+    margin-left: 113px;
+}
+
+hr {
+    border: 0.5px solid rgb(197, 197, 197);
+}
+
+ .icon i {
+    width: 64px;
+    height: 64px;
+    background-color: var(--den);
+    color: white;
+    text-align: center;
+    line-height: 64px;
+    border-radius: 50%;
+    font-size: 24px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+ .icon i:hover {
+    background-color: var(--blue);
+}
+
+i.fas.fa-video {
+    margin-right: 51px;
+    margin-left: 11;
+}
+
+i.fas.fa-camera {margin-left: 64px;margin-right: 38px;}
+
+p.mota1 {
+    font-size: 18px;
+    color: var(--xam);
+}
+
+a.link {
+    color: var(--blue);
+}
+
+span.ten {
+    color: var(--blue);
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    --blue: #5851b9;
+    --den: #343a40;
+    --xam: #868e96;
+    padding-left: 15%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+h4.tieude4.md-4 {
+    margin-top: -36px;
+    margin-left: 300px;
+}
+
+h4.tieude4 {
+    color: #ffffff;
+}
+
+h4.tieude4.ma-4 {
+    margin-left: 168px;
+    margin-top: -37px;
+}
+
+h4.tieude4.ms-4 {
+    margin-top: 12px;
+    margin-left: 60px;
+}
+
+h1.tieude1 {
+    font-size: 96px;
+    font-weight: 700;
+    color: var(--den);
+}
+.menu.active{
+    color: white;
+}
+.menu{
+    transition: 0.4s;
+    margin-top: -22px;
+    margin-left: -300;
+}
+body.xanh{
+    --blue: green;
+}
+body.vang{
+    --blue: rgb(185, 185, 36);
+}
+
